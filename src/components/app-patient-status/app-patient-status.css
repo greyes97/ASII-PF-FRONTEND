@@ -1,0 +1,13 @@
+:host {
+  display: block;
+}
+
+.status{
+  margin-top: 25px;
+  text-align: center;
+}
+#loading{
+  text-align: center;
+}
+@import '../../assets/fontawesome/css/all.min.css';
+@import '../../assets/bootstrap/css/bootstrap.min.css';

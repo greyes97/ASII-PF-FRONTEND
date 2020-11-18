@@ -1,0 +1,27 @@
+:host {
+  display: block;
+}
+@import '../../assets/fontawesome/css/all.css';
+#close-sidebar {
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.style{
+  margin-top: 25px
+}
+.style hr{
+  margin-top: 20px
+}
+
+#alertSearch{
+  margin-top: 30px;
+}
+#loading{
+  text-align: center;
+}
+@import '../../assets/bootstrap/css/bootstrap.min.css';

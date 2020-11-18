@@ -1,0 +1,56 @@
+:host {
+  display: block;
+}
+#close-sidebar {
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  padding: 3px;
+  position: absolute;
+  right: 0;
+  -webkit-writing-mode: vertical-lr;
+  margin-right: 3px;
+}
+
+.style-operation{
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+#patient-form{
+  margin-top: 50px;
+}
+
+.style-title{
+  text-align: center;
+}
+
+#card-view{
+  background-color: rgb(255, 255, 255);
+}
+
+#card-view .card {
+  background-color:#f2f3f8;
+}
+.title-color{
+  background-color: #2D3142;
+  color:#6b747c;
+}
+input:valid {
+  color: #495057;
+}
+input:invalid {
+  color: red;
+}
+#loading{
+  text-align: center;
+}
+.status{
+  margin-top: 25px;
+  text-align: center;
+}
+
+
+@import '../../assets/fontawesome/css/all.css';
+@import '../../assets/bootstrap/css/bootstrap.min.css'

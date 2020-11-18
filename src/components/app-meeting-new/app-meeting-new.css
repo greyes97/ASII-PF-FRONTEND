@@ -1,0 +1,63 @@
+:host {
+  display: block;
+}
+#close-sidebar {
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  padding: 3px;
+  position: absolute;
+  right: 0;
+  -webkit-writing-mode: vertical-lr;
+  margin-right: 3px;
+}
+
+.style-operation{
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+#form-meetings{
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.style-title{
+  text-align: center;
+}
+
+#card-view{
+  background-color: rgb(255, 255, 255);
+}
+
+#card-view .card {
+  background-color:#f2f3f8;
+}
+.title-color{
+  background-color: #2D3142;
+  color:#6b747c;
+}
+#row-customer{
+  justify-content: center;
+  align-items: center;
+}
+#ope-me{
+  position: relative;
+  margin-bottom: 10px
+}
+.card-info{
+  box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+#card-actions .card{
+  background-color: rgb(255, 255, 255);
+}
+.body-customer{
+  height: max-content;
+  text-align: center;
+}
+.body-customer .card-title{
+  margin-top: 13px;
+}
+@import '../../assets/fontawesome/css/all.css';
+@import '../../assets/bootstrap/css/bootstrap.min.css';

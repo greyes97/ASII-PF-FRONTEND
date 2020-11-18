@@ -1,0 +1,27 @@
+{
+  "name": "stencilprojectanalisis",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@stencil/core": "^2.0.0",
+    "@stencil/router": "^1.0.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/jquery": "^3.5.4",
+    "jquery": "^3.5.1",
+    "stenciljs-bootstrap": "0.0.2",
+    "sweetalert2": "^10.10.0"
+  }
+}
+
