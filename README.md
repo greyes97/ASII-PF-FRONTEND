@@ -29,4 +29,39 @@ Contamos con los protocolos de seguridad https, garantizando un acceso seguro a 
 ## Vida útil:
 La aplicación tiene una proyección de vida útil indefinida. Se garantiza que esta aplicación funcionará mediante mantenimiento continuo.
 # ¿Cómo se utiliza esta aplicación?
-Esta aplicación, al estar alojada en un servidor de un tercero, y teniendo un dominio propio, hace que acceder y hacer uso de esta aplicación sea algo sumamente sencillo.
+Esta aplicación, al estar alojada en un servidor de un tercero, y teniendo un dominio propio, hace que acceder y hacer uso de esta aplicación sea algo sumamente sencillo. Los pasos para hacer uso de esta se enumeran a continuación:
+  - Acceder al navegador web de preferencia.
+  - Ingresar https://ecstatic-shockley-75d41e.netlify.app/
+  - Ingresar las credenciales de logueo. (Estas las distribuye el hospital que haga uso de la aplicación)
+## Para comenzar
+Para iniciar un nuevo proyecto usando Stencil, clone este repositorio en un nuevo directorio:
+
+```bash
+npm init stencil app
+```
+
+y ejecute:
+
+```bash
+npm start
+```
+
+Para construir la App para producción, ejecute:
+
+```bash
+npm run build
+```
+
+Para ejecutar la prueba unitaria una vez, ejecute:
+
+```
+npm test
+```
+
+Para ejecutar la prueba unitaria y ver los cambios en los archivos durante la ejecución, ejecute:
+
+```
+npm run test.watch
+```
+
+
